@@ -4,24 +4,3 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
-body{
-  background-color: #d4a76a;
-  margin: 0
-}
-.navbar{
-  background-color: #ffdbaa;
-}
-
-.title{
-  color:#553100
-}
-
-.card{
-  background-color: white;
-}
-.big-card{
-  background-color: white;
-}
-.card-btn{
-  background-color: #805215;
-}
