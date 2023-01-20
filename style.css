@@ -3,80 +3,68 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-
-body{
-  background-color: #D4A76A;
-  margin: 0;
-  padding: 0;
-}
-
-h1{
-  color: #553100;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left:15px;
-}
-
-h2{
-  margin: 8px
+*{
+  font-family: "Arial", sans-serif;
 }
 
 header{
-  border-bottom:2px solid #000000;
-  background-color: #FFDBAA;
+  background: #FFDBAA;
+  font-weight:bold;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid black;
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 
-header button{
-  border: none;
-  width:120px;
-  height:40px;
-  position:relative;
-  top:20px;
-  margin-left: 15px;
+body{
+  background: #D4A76A;
+  margin: 0;
+}
+h1{
+  color: #553100;
+}
 
+button{
+  background: #805215;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav > button {
+  border: none;
+
+  padding: 15px;
+  margin: 20px 10px 0 10px;
 }
 
 .cards{
   display: flex;
-  justify-content:space-evenly;
-  align-items: center;
-  text-align: center;
-
+  justify-content: space-between;
 }
 
 .card{
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 300px;
-  height: 150px;
-  box-shadow: 0px 0px 6px 2px #000000;
-  text-align: center;
-  padding: 15px;
-  margin: 30px 50px 10px;
+
+  background: white;
+  margin: 40px;
+  padding: 0px 15px 15px 15px;
+  box-shadow: 1px 1px 1px 1px black;
+
 
 }
 
-p {
-  text-align: left;
-  margin: 10px;
-}
-
-.lg {
-  margin-left: 50px;
-  width: 95%;
-}
-
-.lg button{
+.card button{
+  display: block;
+  margin: 0 auto;
   width: 100%;
+  padding: 15px 0;
 }
-article button{
-  width:300px;
-  height: 40px;
+
+h2{
+  text-align: center;
 }
-button{
-  background-color: #805215;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
+
+.lg{
+  padding-top: 5px;
 }
